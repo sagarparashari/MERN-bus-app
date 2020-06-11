@@ -1,0 +1,36 @@
+.format{
+  width:30%;
+  height:50%;
+  position: relative;
+  border: 2px solid #0F2233;
+  border-radius: 10px;
+  /* top:60px; */
+  left:54%;
+  background: rgba(237, 236, 238, 0.7);
+}
+.signin form{
+    margin:15px;
+    margin-left: 46rem;
+    margin-top: 5rem;
+    /* padding-bottom: 7px; */
+    display:flex;
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    /* border-bottom: 2px solid #89910A; */
+    flex-wrap:wrap;
+}
+.signin form input{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-left:15px;
+    height: 38px;
+ 
+}
+button{
+  height:38px;
+}
+span{
+  color:red;
+  font-size: 20px;
+  font-weight: bolder;
+}

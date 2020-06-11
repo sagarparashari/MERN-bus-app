@@ -1,0 +1,35 @@
+.seats{
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    width:500px;
+    height:150px;
+    flex-wrap:wrap;
+    padding:5px;
+    border-radius: 5px;
+    /* margin-left: 56px; */
+}
+.seats li{
+    display:flex;
+    list-style: none;
+    margin:5px;
+    border:1px solid black;
+    width:35px;
+    height:35px;
+    align-items: center;
+    justify-content:center;
+    background-color:white;
+    color:grey;
+    border-radius:2px;
+}
+.seats li.bookedSeat{
+    background-color:red;
+}
+.seats li.selectSeat{
+    background-color:#53a9ff;
+}
+.fare-details{
+    position: relative;
+    left:113%;
+}

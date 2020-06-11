@@ -1,0 +1,27 @@
+.planning{
+    display:flex;
+    /* justify-content: space-evenly; */
+    align-items:center;
+    flex-direction: row;
+    margin:30px;
+    height:50%;
+    flex-wrap:wrap;
+}
+.planning .form-control{
+    width:220px;
+}
+.planning #doj{
+    width:200px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 10px;
+    border:1px solid silver;
+}
+.planning button{
+  margin-top:31px;
+}
+.strike {
+    color: black;
+    font-size: 18px;
+    font-weight: normal;
+}

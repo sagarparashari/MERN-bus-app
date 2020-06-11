@@ -1,0 +1,41 @@
+.payment-top{
+    display:flex;
+    margin:15px 45px;
+    justify-content: space-between;
+    font-weight:bolder;
+    font-size:18px;
+}
+
+.container input[type=text]{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left:15px;
+    height: 38px;
+    width:70%;
+    margin-top: 10px;
+}
+
+.card-num input[type=number]{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left:15px;
+    height: 38px;
+    width:60%;
+    margin-top: 0px;
+}
+input[type=number]{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left:15px;
+    height: 38px;
+    width:70px;
+    margin-top: 10px;
+}
+input[type=radio]{
+    margin-left:3px;
+}
+.container button{
+    margin-top: 18px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}

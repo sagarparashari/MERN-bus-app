@@ -1,0 +1,13 @@
+.table-top{
+    margin:20px;
+}
+.table-top h3{
+    color:black;
+}
+
+.table-head {
+    padding:10px;
+}
+.table-body {
+    padding:0;
+}

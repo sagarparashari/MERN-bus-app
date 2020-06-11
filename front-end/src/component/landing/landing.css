@@ -1,0 +1,74 @@
+.nav-land {
+    position: relative;
+    top: 15px;
+    left: 80%;
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.nav-land button {
+    margin-left: 15px;
+}
+
+.landing {
+    position: relative;
+    top: 85px;
+    left: 15%;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: rgba(237, 236, 238, 0.7);
+}
+
+.landing ul {
+    margin: 15px;
+    margin-top: 21px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.isDisabled {
+    cursor: not-allowed;
+    text-decoration: none;
+    pointer-events: none;
+    background-color: #999999;
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.landing ul li a {
+    font-size: 16px;
+    padding: 7px;
+}
+
+.active {
+    cursor: not-allowed;
+    text-decoration: none;
+    pointer-events: none;
+    background-color: #4BB543;
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+span.step {
+    background: #ffffff;
+    border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    color: black;
+    display: inline-block;
+    font-weight: lighter;
+    line-height: 1.2em;
+    margin-right: 6px;
+    padding: 0.1px;
+    text-align: center;
+    width: 1.2em;
+    font-family: 'Calibri';
+}
+
+.ticket {
+    margin-top: 1px;
+}
